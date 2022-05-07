@@ -174,7 +174,7 @@ switch dist
         
     case 'poisson'
         suffstat = [];
-        suffstat.lambda = cell(nfeature);
+        suffstat.lambda = cell(nfeature,1);
         suffstat.n = cell(nfeature,1);
         
         for f = 1:nfeature
